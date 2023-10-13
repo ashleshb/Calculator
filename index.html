@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"> </script>
+    <div class="Frame3">
+        <h3>calc</h3>
+        <div class="output">
+            <input type="text" id="Group1" disabled>
+        </div>
+        <div class="rectangle">
+            <div id="Frame4">
+                <div class="frame2">
+                    <button onclick="addToDisplay('7')" value="7">7</button>
+                    <button onclick="addToDisplay('8')" value="8">8</button>
+                    <button onclick="addToDisplay('9')" value="9">9</button>
+                    <button onclick="deleteLastCharacter()" class="del">DEL</button>
+                </div>
+                <div class="frame3">
+                    <button onclick="addToDisplay('4')" value="4">4</button>
+                    <button onclick="addToDisplay('5')" value="5">5</button>
+                    <button onclick="addToDisplay('6')" value="6">6</button>
+                    <button onclick="addToDisplay('+')" value="+">+</button>
+                </div>
+                <div class="frame4">
+                    <button onclick="addToDisplay('1')" value="1">1</button>
+                    <button onclick="addToDisplay('2')" value="2">2</button>
+                    <button onclick="addToDisplay('3')" value="3">3</button>
+                    <button onclick="addToDisplay('-')" value="-">-</button>
+                </div>
+                <div class="frame5">
+                    <button onclick="addToDisplay('.')" value=".">.</button>
+                    <button onclick="addToDisplay('0')" value="0">0</button>
+                    <button onclick="addToDisplay('/')" value="/">/</button>
+                    <button onclick="addToDisplay('*')" value="*">*</button>
+                </div>
+                <div class="frame6">
+                    <button class="reset" onclick="clearDisplay()" value="RESET" >RESET</button>
+                    <button class="equals" onclick="calculate()" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

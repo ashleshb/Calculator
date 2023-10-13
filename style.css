@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 26px;
+    background: #3B4664;
+}
+h3{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 148px;
+    margin-left: 466px;
+}
+.output{
+    width: 536px;
+    height: 142.728px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #181F32;
+    margin-top: 18px;
+    margin-left: 400px;
+}
+#Group1{
+    width: 276px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #FFF;
+    background-color: #181F32;
+    text-align: right;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 50px 35px 50.73px 225px;
+    border: none;
+    outline: none;
+}
+.rectangle{
+    width: 536px;
+    height: 487px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #252D44;
+    margin-top: 26.27px;
+    margin-left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#Frame4{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+    margin: 48px 35px 47px 35px;
+}
+.frame2{
+    display: flex;
+    height: 60px;
+    align-items: flex-start;
+    gap: 22px;
+}
+button{
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+.del{
+    color: white;
+    background-color: #647299;
+}
+.frame3{
+    display: flex;
+    height: 60px;
+    align-items: flex-start;
+    gap: 22px;
+}
+.frame4{
+    display: flex;
+    height: 60px;
+    align-items: flex-start;
+    gap: 22px; 
+}
+.frame5{
+    display: flex;
+    height: 60px;
+    align-items: flex-start;
+    gap: 22px; 
+}
+.frame6{
+    display: flex;
+    align-items: flex-start;
+    gap: 21.127px;
+}
+.reset{
+    width: 222.436px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 11.524px;
+    background: #647299;
+    color: white;
+}
+.equals{
+    width: 222.436px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 11.524px;
+    background: #e80e0e;
+    color: white;
+}
+@media screen and (min-width:768px) {
+    #Frame4{
+        width: 400px;
+        margin-top: 10%;
+        margin-right: 20%;
+   
+    }
+}
+@media screen and (max-width:767px) {
+    #Frame4{
+        width: 60%;
+        flex-wrap: wrap;
+    }
+}
